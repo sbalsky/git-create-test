@@ -20,11 +20,10 @@
 <b>Updating GitHub file with local file: </b>
 <div>
 <dl>
-  <dt>Steps (from inside project folder):
-    <dd>If any changes were made in GitHub remote version: git pull
-    <dd><i>Make changes locally</i>
+  <dt>Steps:<br>
+    <dd>git pull <i>(to align with remote repository)</i>
+    <dd>~~~ Make changes ~~~
     <dd>git add .
     <dd>git commit -m "Add steps for updating existing repository"
     <dd>git push
-  </dt>
 </dl>
