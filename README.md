@@ -8,7 +8,7 @@
     <dd>cd git-create-test/
     <dd>git init
     <dd>echo "# creating new GitHub repository from cmd line" >> README.md
-    <dd>git add README.md
+    <dd>git add README.md (to add named file) or git add . (to add all files from directory)
     <dd>git commit -m "initial commit"
     <dd>curl -u 'sbalsky' https://api.github.com/user/repos -d '{"name":"git-create-test"}'
     <dd>git remote add origin https://github.com/sbalsky/git-create-test.git
@@ -20,7 +20,11 @@
 <b>Updating GitHub file with local file: </b>
 <div>
 <dl>
-  <dt>Steps:
-  <dd>
+  <dt>Steps (from inside project folder):
+    <dd>If any changes were made in GitHub remote version: git pull
+    <dd><i>Make changes locally</i>
+    <dd>git add .
+    <dd>git commit -m "Add steps for updating existing repository"
+    <dd>git push
   </dt>
 </dl>
