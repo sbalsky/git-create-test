@@ -25,7 +25,7 @@
     <dd>~~~ Make changes ~~~
     <dd>git add .
     <dd>git commit -m "Add steps for updating existing repository"
-    <dd>git push <br> /or/ <br>git push origin local-name:remote-name (eg master:check-changes)
+    <dd>git push <br> <i>/or/</i> <br>git push origin local-name:remote-name <i>(eg master:check-changes)</i>
   </dt>
 </dl>
 
